@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-  background: #000;
+  background: #000000;
   color: white;
 }
 ::-webkit-scrollbar {
@@ -12,7 +12,7 @@ body{
 section{
   min-height: 100vh;
   max-height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .inner-shadow {

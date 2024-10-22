@@ -4,10 +4,10 @@ import { ChevronRight } from 'lucide-react';
 const Navbar = () => {
     return (
         <nav className="container mx-auto flex justify-between items-center my-3 border-[1px] border-gray-700 rounded-lg px-3 py-1 text-[#CAD1E9] w-2/3">
-            <div className="flex justify-center items-center gap-2">
+            <a  href="/" className="flex justify-center items-center gap-2">
                 <img src="/logo.svg" width={20} alt="" />
                 <h1 className="font-mono text-xl">IdentifyHub</h1>
-            </div>
+            </a>
 
             <ul className="flex justify-center items-center text-sm gap-3">
                 {Navitems.map((item, i) => (
