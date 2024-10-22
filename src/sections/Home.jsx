@@ -12,9 +12,10 @@ const Home = () => {
   return (
     <section className='flex flex-col items-center '>
       <div className='absolute -z-10  h-[98vh] overflow-hidden'><img className='' src="/overlay.svg"></img></div>
-      <Fallwrapper><Navbar /></Fallwrapper>
+      <Fallwrapper extra=""><Navbar /></Fallwrapper>
+      
 
-      <div className='w-[55%] flex flex-col items-center relative  '>
+      <div className='w-[55%] flex flex-col items-center relative overflow-hidden '>
         <Colorbox />
         <div className='flex flex-col items-center backdrop-blur-2xl relative overflow-y-hidden'>
           <img src="/orbits.svg" className='absolute -top-16 -z-[5]' alt="" />
@@ -29,7 +30,7 @@ const Home = () => {
           <p className='text-center w-2/3 text-slate-300 tracking-wider text-sm'>Make your data invisible by generating unlimited identities. The next-level in privacy protection for online and travel</p>
 
 
-          <div className='flex justify-center items-center mt-2 gap-x-5'>
+          <div className='flex flex-wrap justify-center items-center mt-2 gap-x-5'>
             <button className="relative inline-flex items-center justify-center p-0.5 my-0.5  overflow-hidden text-xs font-medium rounded-3xl group bg-gradient-to-r from-blue-700 to-pink-600 ">
               <span className="relative px-3 py-2 transition-all ease-in duration-75 bg-black rounded-3xl  flex justify-center items-center inner-shadow">
                 Start free trial

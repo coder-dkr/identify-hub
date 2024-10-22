@@ -3,14 +3,14 @@ import Movewrapper from "../Wrappers/Movewrapper"
 
 const Cubehero = () => {
   return (
-    <div className='flex justify-center items-center text-slate-200'>
-      <div className='h-[300px] flex flex-col justify-between items-center'>
+    <div className='flex flex-col lg:flex-row justify-center items-center text-slate-200'>
+      <div className='h-32 lg:h-[300px] flex flex-col justify-between items-center mt-6 lg:mt-0'>
 
         <motion.div 
         initial={{ y: -50, x: -150 , opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
         transition={{ duration: 0.8 , delay: 1 }}
-        viewport={{ once: true, amount: 0.1 }}
+       
         className="bg-gradient-to-br from-transparent to-white/15 backdrop-blur-xl border-[1px] border-white/20 rounded-2xl px-2 py-1 text-xs flex justify-center items-center gap-3">
           <img src="/tick.svg" alt="" />
           <div>
@@ -23,7 +23,7 @@ const Cubehero = () => {
         initial={{ y: 50, x: -150 , opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
         transition={{ duration: 0.8 , delay: 1.3 }}
-        viewport={{ once: true, amount: 0.1 }}
+       
         className="bg-gradient-to-br from-transparent to-white/15 backdrop-blur-xl border-[1px] border-white/20 rounded-2xl px-2 py-1 text-xs flex justify-center items-center gap-3">
           <img src="/card.svg" alt="" />
           <div>
@@ -35,13 +35,13 @@ const Cubehero = () => {
       </div>
       <Movewrapper><img className='w-96' src="/cube.svg" alt="" /></Movewrapper>
 
-      <div className='h-[300px] flex flex-col justify-between items-center'>
+      <div className='h-32 lg:h-[300px] flex flex-col justify-between items-center mt-6 lg:mt-0'>
 
         <motion.div
         initial={{ y: -50, x: 150 , opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
         transition={{ duration: 0.8 , delay: 1.1 }}
-        viewport={{ once: true, amount: 0.1 }}
+       
          className="bg-gradient-to-br from-transparent to-white/15 backdrop-blur-xl border-[1px] border-white/20 rounded-2xl px-2 py-1 text-xs flex justify-center items-center gap-3">
           <img src="/call.svg" alt="" />
           <div>
@@ -54,7 +54,7 @@ const Cubehero = () => {
         initial={{ y: 50, x: 150 , opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
         transition={{ duration: 0.8 , delay: 1.2 }}
-        viewport={{ once: true, amount: 0.1 }}
+       
         className="bg-gradient-to-br from-transparent to-white/15 backdrop-blur-xl border-[1px] border-white/20 rounded-2xl px-2 py-1 text-xs flex justify-center items-center gap-3">
           <img src="/email.svg" alt="" />
           <div>

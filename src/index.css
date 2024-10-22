@@ -9,11 +9,7 @@ body{
 ::-webkit-scrollbar {
   width: 0px;
 }
-section{
-  min-height: 100vh;
-  max-height: 100vh;
-  /* overflow: hidden; */
-}
+
 
 .inner-shadow {
   box-shadow: inset gray 0px 0px 60px -25px;

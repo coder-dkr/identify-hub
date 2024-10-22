@@ -5,7 +5,7 @@ import ScaleFadewrapper from '../Wrappers/ScaleFadewrapper'
 
 const Services = () => {
     return (
-        <section className='flex flex-col items-center '>
+        <section id="Services" className='flex flex-col items-center '>
 
             <button className="relative inline-flex items-center justify-center p-0.5 my-0.5   overflow-hidden text-xs font-medium rounded-3xl group bg-gradient-to-r from-blue-700 to-pink-600 shadow-[0_1px_60px_1px]  shadow-pink-800 mt-16">
                 <span className="relative px-3 py-1  transition-all ease-in duration-75 bg-black rounded-3xl  flex justify-center items-center inner-shadow m">
@@ -13,7 +13,7 @@ const Services = () => {
                 </span>
             </button>
 
-            <h1 className='text-4xl text-[#CAD1E9] font-bold w-96 text-center mt-'>See our serivces for secure your <span className='bg-gradient-to-r from-purple-900 to-pink-800 bg-clip-text text-transparent '>Data</span> </h1>
+            <h1 className='text-4xl text-[#CAD1E9] font-bold w-80 sm:w-96 text-center '>See our serivces for secure your <span className='bg-gradient-to-r from-purple-900 to-pink-800 bg-clip-text text-transparent '>Data</span> </h1>
 
             <p className='text-center w-[40%] mt-3 text-slate-300 tracking-widest text-sm'>Make your data invisible by generating unlimited identities. The next-level in privacy protection for online and travel</p>
 
