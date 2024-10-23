@@ -3,7 +3,7 @@ import { motion, useInView } from 'framer-motion';
 
 const ScaleFadewrapper = ({ children , time }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: '-10%' }); // Trigger when 90% in view
+  const isInView = useInView(ref, { once: true, margin: '-10%' }); 
 
   const variants = {
     hidden: {
@@ -34,7 +34,7 @@ const ScaleFadewrapper = ({ children , time }) => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        overflow: 'hidden', // To prevent overflow during scaling
+        overflow: 'hidden', 
       }}
     >
       {children}

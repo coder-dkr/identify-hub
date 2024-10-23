@@ -1,4 +1,5 @@
 import Footer from "./sections/Footer"
+import Future from "./sections/Future"
 import Home from "./sections/Home"
 import Services from "./sections/Services"
 
@@ -7,6 +8,7 @@ const App = () => {
     <>
       <Home/>
       <Services/>
+      <Future/>
       <Footer/>
     </>
   )

@@ -3,7 +3,7 @@ import { FooterNavitems } from '../../constant/constants'
 
 const Footer = () => {
   return (
-    <footer className='text-[#CAD1E9] px-14 flex flex-col mt-20'>
+    <footer className='text-[#CAD1E9] px-14 flex flex-col mt-20  w-full'>
         <div className='flex flex-col gap-3  md:flex-row  justify-between items-center py-3'>
             <a href="/" className="flex justify-center items-center gap-2">
                 <img src="/logo.svg" width={20} alt="" />

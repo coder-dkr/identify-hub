@@ -1,4 +1,4 @@
-import {useState} from 'react'
+
 
 import Navbar from '../components/Navbar'
 import Colorbox from '../components/Colorbox'
@@ -7,7 +7,7 @@ import Fallwrapper from '../Wrappers/Fallwrapper'
 
 
 const Home = () => {
-  const [cursoricon, setcursoricon] = useState('_')
+
  
   return (
     <section className='flex flex-col items-center '>
@@ -19,6 +19,7 @@ const Home = () => {
         <Colorbox />
         <div className='flex flex-col items-center backdrop-blur-2xl relative overflow-y-hidden'>
           <img src="/orbits.svg" className='absolute -top-16 -z-[5]' alt="" />
+          
           <button className="relative inline-flex items-center justify-center p-0.5 my-0.5   overflow-hidden text-xs font-medium rounded-3xl group bg-gradient-to-r from-blue-700 to-pink-600 shadow-[0_1px_60px_1px]  shadow-pink-800 mt-10">
             <span className="relative px-3 py-1  transition-all ease-in duration-75 bg-black rounded-3xl  flex justify-center items-center inner-shadow">
               Secure your data
@@ -35,6 +36,7 @@ const Home = () => {
               <span className="relative px-3 py-2 transition-all ease-in duration-75 bg-black rounded-3xl  flex justify-center items-center inner-shadow">
                 Start free trial
               </span>
+
             </button>
             <button className="relative inline-flex items-center justify-center p-0.5 my-0.5   overflow-hidden text-xs font-medium rounded-3xl group bg-gradient-to-r from-blue-700 to-pink-600 ">
               <span className="relative px-3 py-2 transition-all ease-in duration-75  rounded-3xl  flex justify-center items-center ">
