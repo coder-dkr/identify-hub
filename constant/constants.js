@@ -7,13 +7,13 @@ const Serviceitem = [
     sub : 'Lets users quickly find answers to their questions without having to search through multiple sources.'
     },
     {
-    img: '/duple.svg',
-    title: 'Personal Information removal',
+    img: '/alias.svg',
+    title: 'Cloaking Alias Profiles',
     sub : 'Lets users quickly find answers to their questions without having to search through multiple sources.'
     },
     {
-    img: '/duple.svg',
-    title: 'Personal Information removal',
+    img: '/secure.svg',
+    title: 'Virtual identities Security',
     sub : 'Lets users quickly find answers to their questions without having to search through multiple sources.'
     }
 

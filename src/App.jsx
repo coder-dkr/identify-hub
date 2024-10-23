@@ -8,6 +8,8 @@ const App = () => {
     <>
       <Home/>
       <Services/>
+      <img src="/Whychoose.svg" alt="" />
+      <img src="/Price.svg" alt="" />
       <Future/>
       <Footer/>
     </>
