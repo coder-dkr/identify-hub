@@ -4,7 +4,7 @@ import Cubehero from '../components/Cubehero'
 
 const Future = () => {
   return (
-    <section className='flex justify-center items-center mt-28 '>
+    <section id="Partners" className='flex justify-center items-center mt-28 '>
        
       <div className='w-[55%] flex flex-col items-center relative overflow-hidde '>
         <Colorbox />
