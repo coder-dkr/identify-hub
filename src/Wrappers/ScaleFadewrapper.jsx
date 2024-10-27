@@ -3,7 +3,7 @@ import { motion, useInView } from 'framer-motion';
 
 const ScaleFadewrapper = ({ children , time }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: '-10%' }); 
+  const isInView = useInView(ref, { margin: '-10%' }); 
 
   const variants = {
     hidden: {

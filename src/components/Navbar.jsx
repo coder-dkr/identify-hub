@@ -14,7 +14,7 @@ const Navbar = () => {
         const element = document.getElementById(item)
 
         if(element){
-            element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
     }
 
@@ -34,7 +34,7 @@ const Navbar = () => {
               
                 <ul className="hidden md:flex justify-center items-center text-sm gap-3">
                     {Navitems.map((item, i) => (
-                        <li onClick={()=>{handleclick(item)}} key={i} className="cursor-pointer hover:text-white duration-150">{item}</li>
+                        <li onClick={()=>{handleclick(item)}} key={i} className="cursor-pointer hover:text-white duration-200 hover:-translate-y-[1px]">{item}</li>
                     ))}
                 </ul>
 

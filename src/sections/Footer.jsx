@@ -2,6 +2,13 @@ import { FooterNavitems } from '../../constant/constants'
 
 
 const Footer = () => {
+    const handleclick = (item) => {
+        const element = document.getElementById(item)
+
+        if(element){
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    }
   return (
     <footer className='text-[#CAD1E9] px-14 flex flex-col mt-20  w-full'>
         <div className='flex flex-col gap-3  md:flex-row  justify-between items-center py-3'>
@@ -12,7 +19,7 @@ const Footer = () => {
 
             <ul className='flex flex-wrap items-center justify-center gap-4'>
                 {FooterNavitems.map((item,i) => (
-                    <li key={i} className='uppercase font-medium text-xs hover:text-white cursor-pointer duration-200 hover:-translate-y-[2px]'>{item}</li>
+                    <li onClick={()=>{handleclick(item)}} key={i} className='uppercase font-medium text-xs hover:text-white cursor-pointer duration-200 hover:-translate-y-[2px]'>{item}</li>
                 ))}
             </ul>
         </div>

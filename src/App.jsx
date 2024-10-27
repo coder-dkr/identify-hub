@@ -1,3 +1,4 @@
+import Features from "./sections/Features"
 import Footer from "./sections/Footer"
 import Future from "./sections/Future"
 import Home from "./sections/Home"
@@ -8,8 +9,7 @@ const App = () => {
     <>
       <Home/>
       <Services/>
-      <img id="Features" src="/Whychoose.svg" alt="" />
-      <img id="Pricing" src="/Price.svg" alt="" />
+      <Features/>
       <Future/>
       <Footer/>
     </>
