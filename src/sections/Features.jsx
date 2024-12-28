@@ -18,7 +18,7 @@ const Features = () => {
       <div className="flex flex-col justify-between items-center mt-6 gap-y-6 text-[#CAD1E9]">
         {Featurecontent.map((content, i) => (
           <Slidein index={i} key={i}>
-          <div className="flex md:flex-row flex-col items-center gap-5 bg-gradient-to-r from-[#00000029] to-white/10 rounded-xl backdrop-blur-xl px-6 py-4">
+          <div className="flex md:flex-row flex-col items-center gap-5 bg-gradient-to-r from-[#00000029] to-white/10 rounded-xl backdrop-blur-xl px-2 md:px-6 py-4">
             <div className="flex justify-center items-start gap-5">
               <img className="" src={content.sidesvg} alt="" />
               <div className="flex flex-col gap-9 w-[450px]">

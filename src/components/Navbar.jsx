@@ -48,8 +48,8 @@ const Navbar = () => {
                 </div>
             </nav>
 
-            <div className={`fixed inset-0 bg-gray-900 bg-opacity-50 backdrop-blur-md transition-opacity duration-300 ${isOpen ? 'opacity-100 z-50' : 'opacity-0 z-0 pointer-events-none'}`}>
-                <div className={`fixed top-0 right-0 w-64 h-full bg-gray-800 transition-transform duration-300 transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} shadow-lg`}>
+            <div className={`fixed inset-0 bg-gray-900 bg-opacity-50 backdrop-blur-md transition-opacity duration-300 ${isOpen ? 'opacity-100 z-[500]' : 'opacity-0 z-0 pointer-events-none'}`}>
+                <div className={`fixed top-0 left-0 w-64 h-full bg-gray-800 transition-transform duration-300 transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} shadow-lg`}>
                    
                     <button className="absolute top-4 right-4 text-white" onClick={toggleMenu}>
                         &times; 

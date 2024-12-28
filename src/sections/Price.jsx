@@ -6,7 +6,7 @@ import ScaleFadewrapper from '../Wrappers/ScaleFadewrapper'
 
 const Price = () => {
   return (
-    <section id="Pricing" className='flex  flex-col justify-center items-center mt-28 '>
+    <section id="Pricing" className=' hidden lg:flex  flex-col justify-center items-center mt-28 '>
 
        <button className="z-[100] relative inline-flex items-center justify-center p-0.5 my-0.5  overflow-hidden text-xs font-medium rounded-3xl group bg-gradient-to-r from-blue-700 to-pink-600 shadow-[0_1px_60px_1px]  shadow-violet-800 mt-16">
             <span className="relative px-3 py-1  transition-all ease-in duration-75 bg-black rounded-3xl  flex justify-center items-center inner-shadow m">
