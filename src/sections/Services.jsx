@@ -19,7 +19,7 @@ const Services = () => {
 
             <div className='flex flex-col md:flex-row justify-between items-center gap-4 md:gap-12 mt-14 text-[#CAD1E9] px-2'>
                 {Serviceitem.map((item,i) => (
-                   <ScaleFadewrapper key={i} time={i/5}> 
+                   <ScaleFadewrapper key={i} time={i/5} inscale={0.1} inopa={0.3} > 
                      <div className='relative flex items-center justify-center group'> 
                         <img className='w-80 bg-[url("/contgrad.svg")] bg-cover bg-right' src="/container.svg" alt="" />
                         <div className='absolute top-4 left-8 flex flex-col justify-center items-start gap-3'>

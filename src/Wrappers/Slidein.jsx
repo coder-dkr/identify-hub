@@ -7,8 +7,7 @@ const Slidein = ({ children,extra, initialX = 150, duration = 0.8, delay = 0.5,i
       initial={{ x: index % 2 != 0 ? initialX : 0-initialX, opacity: 0 }}
       whileInView={{ x: 0, opacity: 1 }}
       transition={{ duration, delay }}
-      viewport={{ once: true, amount: 0.2 }} 
-      
+      viewport={{ once: false, amount: 0.2 }} 
     >
       {children}
     </motion.div>

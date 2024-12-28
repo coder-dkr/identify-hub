@@ -1,6 +1,6 @@
 import React from 'react'
 import Colorbox from '../components/Colorbox'
-import Cubehero from '../components/Cubehero'
+
 
 const Future = () => {
   return (
@@ -14,7 +14,6 @@ const Future = () => {
           <h1 className='text-3xl md:text-5xl mt-1 pb-3 font-bold text-center'>Be part of the future of <br /><span className='inline-flex -ml-5 flex-col justify-center items-center gap-2 bg-gradient-to-b from-[#FF69B4] to-blue-600 bg-clip-text text-transparent ml-3 '>Identify-hub<img className='w-72' src="/underline.svg" alt="" /></span></h1>
        
           <p className='text-center w-2/3 text-slate-300 tracking-wider text-sm'>Unleash the power of AI within Brainwave. Upgrade your productivity with Brainwave, the open AI chat app.</p>
-
 
           <div className='flex flex-wrap justify-center items-center mt-2 gap-x-5'>
             

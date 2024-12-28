@@ -1,14 +1,14 @@
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 
-const ScaleFadewrapper = ({ children , time }) => {
+const ScaleFadewrapper = ({ children , time , inscale, inopa , hidden = 0 }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { margin: '-10%' }); 
 
   const variants = {
     hidden: {
-      scale: 0,
-      opacity: 0,
+      scale: inscale,
+      opacity: inopa,
       transition: {
         duration: 0.7,
         ease: 'easeInOut',
@@ -34,7 +34,7 @@ const ScaleFadewrapper = ({ children , time }) => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        overflow: 'hidden', 
+        overflow: hidden - 1 ? 'hidden' : 'visible', 
       }}
     >
       {children}

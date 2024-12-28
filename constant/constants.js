@@ -1,4 +1,4 @@
-const Navitems = ['Services','Features','Pricing','Partners','About us']
+const Navitems = ['Services','Features','Pricing','Partners','Reviews']
 const FooterNavitems = ['Features','Services','Pricing','How to use']
 const Serviceitem = [
     {
@@ -40,5 +40,56 @@ const Featurecontent = [
     },
 ]
 
+const Prices = [
+    {
+        head: "Basic",
+        sub: "AI chatbot, personalized recommendations",
+        price : { cur : "$" , amount : "0"},
+        btntxt : "Get started",
+        points: ["Type of threat","Online presence", "Access to all molecules", "Notability"]
+    },
+    {
+        head: "Hard",
+        sub: "AI chatbot, personalized recommendations",
+        price : { cur : "$" , amount : "9.99"},
+        btntxt : "Get started",
+        points: ["Type of threat","Online presence", "Access to all molecules", "Notability"]
+    },{
+        head: "Medium",
+        sub: "AI chatbot, personalized recommendations",
+        price : { cur : "$" , amount : "20.99"},
+        btntxt : "Get started",
+        points: ["Type of threat","Online presence", "Access to all molecules", "Notability"]
+    }
+]
 
-export {Navitems , Serviceitem, FooterNavitems,Featurecontent}
+
+const Testimonials = [
+
+    {
+        name : "Daddy Roy",
+        job : "Developer",
+        time : "Since eternity",
+        para : "Assume an intellectual comment"
+    },
+    {
+        name : "Joe Mama",
+        job : "Mama",
+        time : "10 day agao",
+        para : "Forget about spam, advertising mailings, hacking and attacking robots. Keep your real mailbox clean and secure. Temp Mail provides temporary, secure, anonymous, free, disposable email address. Stalkers and disgruntled acquaintances use the Internet to find addresses, phone numbers and other personal details about their targets. Identity thieves use personal information numbers and other personal details"
+    },
+    {
+        name : "David J. Karem",
+        job : "Buisness",
+        time : "1 day agao",
+        para : "Forget about spam, advertising mailings, hacking and attacking robots. Keep your real mailbox clean and secure. Temp Mail provides temporary, secure, anonymous, free, disposable email address. Stalkers and disgruntled acquaintances use the Internet to find addresses, phone numbers and other personal details about their targets. Identity thieves use personal information numbers and other personal details"
+    }
+    ,{
+        name : "Halu D wai",
+        job : "Haluwai",
+        time : "3 day agao",
+        para : "Forget about spam, advertising mailings, hacking and attacking robots. Keep your real mailbox clean and secure. Temp Mail provides temporary, secure, anonymous, free, disposable email address. Stalkers and disgruntled acquaintances use the Internet to find addresses, phone numbers and other personal details about their targets. Identity thieves use personal information numbers and other personal details"
+    }
+]
+
+export {Navitems , Serviceitem, FooterNavitems,Featurecontent, Testimonials , Prices }
